@@ -18,11 +18,6 @@ function MenuItems() {
 				justifyContent: "center",
 			}}
 			defaultSelectedKeys={[pathname]}>
-			<Menu.Item key='/quickstart'>
-				<Link href='/quickstart'>
-					<a>🚀 Quick Start</a>
-				</Link>
-			</Menu.Item>
 			<Menu.Item key='/wallet'>
 				<Link href='/wallet'>
 					<a>👛 Wallet</a>
